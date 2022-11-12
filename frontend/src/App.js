@@ -70,6 +70,7 @@ const Theme = createTheme(theme);
               <>
                 <Route path="/" element={<Blogs />} />
                 <Route path="/auth" element={<Auth />} />
+                <Route path="/blogs/:id" element={<BlogDetail />} />
               </>
             )}
           </Routes>
